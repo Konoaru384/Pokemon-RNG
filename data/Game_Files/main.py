@@ -42,16 +42,16 @@ while True:
         rand = random.random()
         if rand < 0.001:
             file_path = 'data/legendary.json'
-            print("\033[1;33mUn pokemon LEGENDAIRE est apparu !\033[0m")
+            print("\033[1;33mA LEGENDARY pokemon as catch !\033[0m")
             time.sleep(3)
         else:
             if rand < 0.003:
                 file_path = 'data/mythical.json'
-                print("\033[1;31mUn pokemon FABULEUX est apparu !\033[0m")
+                print("\033[1;31mA FABULOUS pokemon as catch !\033[0m")
                 time.sleep(3)
             elif rand > 0.005:
                 file_path = 'data/pokemon.json'
-                print("\033[1;32mun pokemon est apparu ! \033[0m")
+                print("\033[1;32mA pokemon as catch ! \033[0m")
                 time.sleep(0.5)
         
         with open(file_path, 'r', encoding='utf-8') as file:
@@ -73,7 +73,7 @@ while True:
         time.sleep (0.1)
         print("Close the window = end the script")
         time.sleep (0.1)
-        print("inventory = Vois ton inventaire")
+        print("inventory = See your inventory")
         time.sleep (0.1)
         print("")
         time.sleep (0.2)
