@@ -1,0 +1,19 @@
+codes : 
+        # Choisir un fichier en fonction des probabilités
+        rand = random.random()
+        if rand < 0.005:
+            file_path = 'data/mythical.json'
+            print("\033[1;31mUn pokemon FABULEUX est apparu !\033[0m")
+            time.sleep(3)
+        else:
+            if rand < 0.002:
+                file_path = 'data/legendary.json'
+                print("\033[1;33mUn pokemon LEGENDAIRE est apparu !\033[0m")
+                time.sleep(3)
+            elif rand > 0.002:
+                file_path = 'data/pokemon.json'
+                print("\033[1;32mun pokemon est apparu ! \033[0m")
+                time.sleep(0.5)
+
+
+Probabilite repare on peut maintenat avoir un leg
