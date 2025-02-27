@@ -18,8 +18,11 @@ Please note that this script requires Python 3.8 installed. Python 3.9 won't wor
 ### Getting Started:
 For start the script double click in play.bat if it not work just try : 
 ```
-py data/Game_Files/main.py (in the cmd of the main file)
+py data/Game_Files/main.py
 ```
+in the cmd of the files
+
+
 The command may vary depending on your operating system, so try `python3 main.py` if this doesn't work.
 
 
